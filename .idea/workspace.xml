@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1af4de8d-b772-4f52-bacd-59e8f5f9d873" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/carrito/indexcarrito.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/paquete1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/paquete2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/paquete3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/platillo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/register/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/scriptscarrito.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/stylelogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/styles/stylescarrito.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,35 +27,69 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2RFOgjxueloRAnBwMjteoY2QhV2" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RFXw0CMPZcyRRjv3slD0eCDFIu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature",
+    "git-widget-placeholder": "features",
     "last_opened_file_path": "C:/Users/USER/Desktop/Nueva carpeta/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\USER\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1af4de8d-b772-4f52-bacd-59e8f5f9d873" name="Changes" comment="" />
-      <created>1686842475334</created>
+      <changelist id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="" />
+      <created>1686847038755</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1686842475334</updated>
-      <workItem from="1686842476516" duration="660000" />
+      <updated>1686847038755</updated>
+      <workItem from="1686847039910" duration="3673000" />
+      <workItem from="1687313842112" duration="1895000" />
     </task>
     <servers />
   </component>
@@ -60,5 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

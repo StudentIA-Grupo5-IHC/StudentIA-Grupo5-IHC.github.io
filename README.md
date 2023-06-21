@@ -1,5 +1,3 @@
-﻿# StudentIA-Grupo5-IHC.github.io
-
 StudentAI
 Autores
 Murillo Zárate, Carlos Alfredo - U202122754
