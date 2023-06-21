@@ -1,0 +1,522 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <title>StudentIA</title>\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css\">\r\n    <link href=\"https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css\">\r\n    <link rel=\"stylesheet\" href=\"https://unpkg.com/aos@next/dist/aos.css\" />\r\n    <link rel=\"stylesheet\" href=\"./assets/styles/style.css\">\r\n    <link rel=\"shortcut icon\" href=\"./assets/images/favicon.ico\" type=\"image/x-icon\">\r\n</head>\r\n\r\n<body data-bs-spy=\"scroll\" data-bs-target=\".navbar\">\r\n\r\n    <!-- NAVBAR -->\r\n    <nav class=\"navbar navbar-expand-lg bg-white sticky-top\">\r\n        <div class=\"container\">\r\n            <a class=\"navbar-brand\" href=\"#\">\r\n                <img src=\"./assets/images/Logo.png\" alt=\"\" style=\"height: 70px; width: 150px;\">\r\n            </a>\r\n            <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\"\r\n                aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n                <span class=\"navbar-toggler-icon\"></span>\r\n            </button>\r\n            <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\r\n                <ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#hero\">Inicio</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#about\">About</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#services\">Servicios</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#portfolio\">Precios</a>\r\n                    </li>\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#reviews\">Comunidad</a>\r\n                    </li>\r\n\r\n                    <li class=\"nav-item\">\r\n                        <a class=\"nav-link\" href=\"#contact\">Contactanos</a>\r\n                    </li>\r\n\r\n                </ul>\r\n                <ul class=\"navbar-nav ms-auto mb-2 mb-lg-0\">\r\n                    <li class=\"nav-but\">\r\n                        <a class=\"btn btn-outline-dark\" href=\"#\">Register</a>\r\n                    </li>\r\n                    <li class=\"nav-but\">\r\n                        <a class=\"btn btn-outline-dark\" href=\"#\">Login</a>\r\n                    </li>\r\n                </ul>\r\n            </div>\r\n        </div>\r\n    </nav>\r\n\r\n    <!-- HERO -->\r\n    <section id=\"hero\" class=\"min-vh-100 d-flex align-items-center text-center\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-12\">\r\n                    <h1 data-aos=\"fade-left\" class=\"text-uppercase text-white fw-semibold display-1\">CLASES INICIADAS\r\n                    </h1>\r\n                    <h5 class=\"text-white mt-3 mb-4\" data-aos=\"fade-right\">APRENDE CURSOS CON AYUDA DE INTELIGENCIA\r\n                        ARTIFICIAL Y MUCHO MAS</h5>\r\n                    <div data-aos=\"fade-up\" data-aos-delay=\"50\">\r\n                        <a href=\"#\" class=\"btn btn-brand me-2\">Inicia Ahora</a>\r\n                        <a href=\"#contact\" class=\"btn btn-light ms-2\">Contactanos</a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <!-- ABOUT -->\r\n    <section id=\"about\" class=\"section-padding\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-12 text-center\" data-aos=\"fade-down\" data-aos-delay=\"50\">\r\n                    <div class=\"section-title\">\r\n                        <h1 class=\"display-4 fw-semibold\">¿Quiénes somos?</h1>\r\n                        <div class=\"line\"></div>\r\n                        <p>StudentIA es una empresa de desarrollo de software , que tiene como base fundamental el\r\n                            proyecto de la creación de una aplicación la cual tenga la función se brindan apoyo a los\r\n                            estudiantes universitarios que requieran apoyo académico mediante la asesoría de la\r\n                            inteligencia artificial.</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row justify-content-between align-items-center\">\r\n                <div class=\"col-lg-6\" data-aos=\"fade-down\" data-aos-delay=\"50\">\r\n                    <img src=\"./assets/images/about.jpg\" alt=\"\">\r\n                </div>\r\n                <div data-aos=\"fade-down\" data-aos-delay=\"150\" class=\"col-lg-5\">\r\n                    <h1>Canales de Contacto</h1>\r\n                    <p class=\"mt-3 mb-4\">Soporte con los mejores asesores</p>\r\n                    <div class=\"d-flex pt-4 mb-3\">\r\n                        <div class=\"iconbox me-4\">\r\n                            <i class=\"ri-mail-send-fill\"></i>\r\n                        </div>\r\n                        <div>\r\n                            <h5>Correo Electronico</h5>\r\n                            <p>soporte.studenia@gmail.com ventas.studentia@gmail.com</p>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"d-flex mb-3\">\r\n                        <div class=\"iconbox me-4\">\r\n                            <i class=\"ri-user-5-fill\"></i>\r\n                        </div>\r\n                        <div>\r\n                            <h5>Teléfono</h5>\r\n                            <p>+51 (08800)10700</p>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"d-flex\">\r\n                        <div class=\"iconbox me-4\">\r\n                            <i class=\"ri-rocket-2-fill\"></i>\r\n                        </div>\r\n                        <div>\r\n                            <h5>¿Donde nos encontramos?</h5>\r\n                            <p>Lima-Perú</p>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <!-- SERVICES -->\r\n    <section id=\"services\" class=\"section-padding border-top\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-12 text-center\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <div class=\"section-title\">\r\n                        <h1 class=\"display-4 fw-semibold\">Categorias de cursos que Ofrecemos</h1>\r\n                        <div class=\"line\"></div>\r\n                        <p>Como parte de nuestra lista de cursos en donde ofrecemos asesorías tenemos estos cursos que\r\n                            son los que tienen mas demanda de estudiantes</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row g-4 text-center\">\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-pen-nib-fill\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Diseño Grafico</h5>\r\n                        <p>Como parte de la categoría de diseño grafico tenemos cursos relacionados , aprendizaje\r\n                            contante con ayuda de una IA</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"250\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-stack-fill\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Ciencias</h5>\r\n                        <p>Como parte de la categoría ciencias tenemos cursos de matemática , física , química de todos\r\n                            los niveles</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"350\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-ruler-2-fill\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Testers</h5>\r\n                        <p>Como parte de la categoría Testers tenemos cursos de herramientas de Test como Selenium\r\n                            TestLink, Jmeter , etc..</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"450\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-pie-chart-2-fill\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Marketing Digital</h5>\r\n                        <p>Cursos completos de Marketing Digital todos en español</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"550\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-code-box-line\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Programación</h5>\r\n                        <p>Los mejores cursos de programación para paginas web, diseño de juegos, etc…</p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"650\">\r\n                    <div class=\"service theme-shadow p-lg-5 p-4\">\r\n                        <div class=\"iconbox\">\r\n                            <i class=\"ri-user-2-fill\"></i>\r\n                        </div>\r\n                        <h5 class=\"mt-4 mb-3\">Humanidades</h5>\r\n                        <p>Diferentes cursos de Humanidades con apoyo y herramientas</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <!-- COUNTER -->\r\n    <section id=\"counter\" class=\"section-padding\">\r\n        <div class=\"container text-center\">\r\n            <div class=\"row g-4\">\r\n                <div class=\"col-lg-3 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <h1 class=\"text-white display-4\">10,00+</h1>\r\n                    <h6 class=\"text-uppercase mb-0 text-white mt-3\">Total Usuarios</h6>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"250\">\r\n                    <h1 class=\"text-white display-4\">100+</h1>\r\n                    <h6 class=\"text-uppercase mb-0 text-white mt-3\">Total Cursos</h6>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"350\">\r\n                    <h1 class=\"text-white display-4\">50+</h1>\r\n                    <h6 class=\"text-uppercase mb-0 text-white mt-3\">Categorias</h6>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"450\">\r\n                    <h1 class=\"text-white display-4\">6</h1>\r\n                    <h6 class=\"text-uppercase mb-0 text-white mt-3\">Miembros del Team</h6>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <!-- PORTFOLIO -->\r\n    <section id=\"portfolio\" class=\"section-padding\">\r\n        <div class=\"container\">\r\n            <div class=\"row mb-5\">\r\n                <div class=\"col-md-8 mx-auto text-center\">\r\n                    <h6 class=\"text-primary\">PRECIOS</h6>\r\n                    <h1>PAQUETES Y CARACTERISTICAS</h1>\r\n                    <p>Tenemos 4 diferentes paquetes para todos los usuarios, con disponibilidad inmediata, además cada\r\n                        paquete cuenta con características únicas</p>\r\n                </div>\r\n            </div>\r\n            <div class=\"row g-4\">\r\n                <div class=\"col-lg-3 col-sm-6\">\r\n                    <div class=\"pricing card-effect text-center\">\r\n                        <h6>FREE</h6>\r\n                        <h1>$0</h1>\r\n                        <hr>\r\n                        <ul class=\"list-unstyled mb-4\">\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a algunos cursos</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a Foros</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                No tendra acceso a la IA</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                No Chat con la Comunidad</li>\r\n                            <li><i class='bx bxs-check-circle'></i>No tendra aceeso a las promociones</li>\r\n                        </ul>\r\n                        <button class=\"btn btn-primary\">Lo quiero!</button>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\">\r\n                    <div class=\"pricing card-effect text-center\">\r\n                        <h6>IRON</h6>\r\n                        <h1>$50</h1>\r\n                        <hr>\r\n                        <ul class=\"list-unstyled mb-4\">\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a algunos cursos</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a Foros</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a la IA + Herramientas adicionales</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Chat con la Comunidad</li>\r\n                            <li><i class='bx bxs-check-circle'></i>1 mes 50% descuento</li>\r\n                        </ul>\r\n                        <button class=\"btn btn-primary\">Lo quiero!</button>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\">\r\n                    <div class=\"pricing card-effect text-center\">\r\n                        <h6>GOLD</h6>\r\n                        <h1>$100</h1>\r\n                        <hr>\r\n                        <ul class=\"list-unstyled mb-4\">\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a casi todos los cursos</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a Foros</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a la IA + Herramientas adicionales</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Chat con la Comunidad</li>\r\n                            <li><i class='bx bxs-check-circle'></i>1 mes 50% descuento</li>\r\n                        </ul>\r\n                        <button class=\"btn btn-primary\">Lo quiero!</button>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-3 col-sm-6\">\r\n                    <div class=\"pricing card-effect text-center\">\r\n                        <h6>DIAMOND</h6>\r\n                        <h1>$150</h1>\r\n                        <hr>\r\n                        <ul class=\"list-unstyled mb-4\">\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a todos los cursos</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a Foros</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Acceso a la IA + Herramientas adicionales</li>\r\n                            <li><i class='bx bxs-check-circle'></i>\r\n                                Chat con la Comunidad</li>\r\n                            <li><i class='bx bxs-check-circle'></i>2 meses 50% descuento</li>\r\n                        </ul>\r\n                        <button class=\"btn btn-primary\">Lo quiero!</button>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section><!-- PRICING -->\r\n\r\n\r\n    <!-- REVIEW -->\r\n    <section id=\"reviews\" class=\"section-padding bg-light\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-12 text-center\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <div class=\"section-title\">\r\n                        <h1 class=\"display-4 fw-semibold\">Comunidad de StudentIA</h1>\r\n                        <div class=\"line\"></div>\r\n                        <p>La comunidad también opina y estas son algunas de sus palabras para con nosotros</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row gy-5 gx-4\">\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>Muy buenos cursos , muy completos además de que me parece interesante el poder una\r\n                                inteligencia artificial apoyándonos.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-1.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de la UNI</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"250\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>Tener la oportunidad de tener un plan free para comenzar a ver si vale la pena los cursos\r\n                                es muy bueno.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-2.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de la UPC</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"350\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>La atención me pareció muy buena y rápida para resolver un problema que tuve, me siento\r\n                                satisfecho.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-3.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de la USIL</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"450\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>Como estudiante me siento muy contento con haber encontrado esta pagina me ayuda mucho a\r\n                                reforzar mis conocimientos.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-4.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de Pamer</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"550\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>Siento que le hace falta más áreas en donde pueda enseñarnos otros cursos, pero me parece\r\n                                igual buena opción.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-5.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de San Marcos</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"col-lg-4 col-sm-6\" data-aos=\"fade-down\" data-aos-delay=\"650\">\r\n                    <div class=\"review\">\r\n                        <div class=\"review-head p-4 bg-white theme-shadow\">\r\n                            <div class=\"text-warning\">\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                                <i class=\"ri-star-fill\"></i>\r\n                            </div>\r\n                            <p>Para los precios que tienen son muy buenos y además de tener una IA y constante\r\n                                asesoramiento.</p>\r\n                        </div>\r\n                        <div class=\"review-person mt-4 d-flex align-items-center\">\r\n                            <img class=\"rounded-circle\" src=\"./assets/images/avatar-6.jpg\" alt=\"\">\r\n                            <div class=\"ms-3\">\r\n                                <h5>Dianne Russell</h5>\r\n                                <small>Estudiante de la UCV</small>\r\n                            </div>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n    <!-- TEAM --> /\r\n\r\n\r\n    <!-- CONTACT -->\r\n    <section class=\"section-padding bg-light\" id=\"contact\">\r\n        <div class=\"container\">\r\n            <div class=\"row\">\r\n                <div class=\"col-12 text-center\" data-aos=\"fade-down\" data-aos-delay=\"150\">\r\n                    <div class=\"section-title\">\r\n                        <h1 class=\"display-4 text-white fw-semibold\">Contactanos</h1>\r\n                        <div class=\"line bg-white\"></div>\r\n                        <p class=\"text-white\">Llena el formulario para poder contactarnos contigo y darte mas\r\n                            informacion sobre tus dudas</p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n            <div class=\"row justify-content-center\" data-aos=\"fade-down\" data-aos-delay=\"250\">\r\n                <div class=\"col-lg-8\">\r\n                    <form action=\"#\" class=\"row g-3 p-lg-5 p-4 bg-white theme-shadow\">\r\n                        <div class=\"form-group col-lg-6\">\r\n                            <input type=\"text\" class=\"form-control\" placeholder=\"Nombre\">\r\n                        </div>\r\n                        <div class=\"form-group col-lg-6\">\r\n                            <input type=\"text\" class=\"form-control\" placeholder=\"Apellido\">\r\n                        </div>\r\n                        <div class=\"form-group col-lg-12\">\r\n                            <input type=\"email\" class=\"form-control\" placeholder=\"Email\">\r\n                        </div>\r\n                        <div class=\"form-group col-lg-12\">\r\n                            <input type=\"text\" class=\"form-control\" placeholder=\"Tema\">\r\n                        </div>\r\n                        <div class=\"form-group col-lg-12\">\r\n                            <textarea name=\"message\" rows=\"5\" class=\"form-control\" placeholder=\"Mensaje\"></textarea>\r\n                        </div>\r\n                        <div class=\"form-group col-lg-12 d-grid\">\r\n                            <button class=\"btn btn-brand\">Enviar</button>\r\n                        </div>\r\n                    </form>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </section>\r\n\r\n\r\n\r\n    <!-- FOOTER -->\r\n    <footer class=\"bg-dark\">\r\n        <div class=\"footer-top\">\r\n            <div class=\"container\">\r\n                <div class=\"row gy-5\">\r\n                    <div class=\"col-lg-3 col-sm-6\">\r\n                        <a href=\"#\"><img src=\"./assets/images/Logo.png \" style=\"height: 100px; width: 200px;\"\r\n                                alt=\"\"></a>\r\n                        <div class=\"line\"></div>\r\n                        <p>Tambien mas informacion en nuestras redes sociales</p>\r\n                        <div class=\"social-icons\">\r\n                            <a href=\"#\"><i class=\"ri-facebook-fill\"></i></a>\r\n                            <a href=\"#\"><i class=\"ri-instagram-fill\"></i></a>\r\n                            <a href=\"#\"><i class=\"ri-github-fill\"></i></a>\r\n                            <a href=\"#\"><i class=\"ri-linkedin-fill\"></i></a>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"col-lg-3 col-sm-6\">\r\n                        <h5 class=\"mb-0 text-white\">SERVICios</h5>\r\n                        <div class=\"line\"></div>\r\n                        <ul>\r\n                            <li><a href=\"#\">Diseño Grafico</a></li>\r\n                            <li><a href=\"#\">Ciencias</a></li>\r\n                            <li><a href=\"#\">Testers</a></li>\r\n                            <li><a href=\"#\">Programacion</a></li>\r\n                        </ul>\r\n                    </div>\r\n                    <div class=\"col-lg-3 col-sm-6\">\r\n                        <h5 class=\"mb-0 text-white\">ABOUT</h5>\r\n                        <div class=\"line\"></div>\r\n                        <ul>\r\n                            <li><a href=\"#\">Correo</a></li>\r\n                            <li><a href=\"#\">Telefono</a></li>\r\n                            <li><a href=\"#\">Empresa</a></li>\r\n                            <li><a href=\"#\">Donde nos encontramos?</a></li>\r\n                        </ul>\r\n                    </div>\r\n                    <div class=\"col-lg-3 col-sm-6\">\r\n                        <h5 class=\"mb-0 text-white\">CONTACT</h5>\r\n                        <div class=\"line\"></div>\r\n                        <ul>\r\n                            <li>Lima-Perú</li>\r\n                            <li>+51 (08800)10700</li>\r\n                            <li>ventas.studentia@gmail.com</li>\r\n                        </ul>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div class=\"footer-bottom\">\r\n            <div class=\"container\">\r\n                <div class=\"row g-4 justify-content-between\">\r\n                    <div class=\"col-auto\">\r\n                        <p class=\"mb-0\">© Copyright Grupo5 / 2023-01</p>\r\n                    </div>\r\n                    <div class=\"col-auto\">\r\n                        <p class=\"mb-0\">StudentIA<a href=\"#\">(^o^)</a></p>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </footer>\r\n\r\n\r\n\r\n\r\n\r\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js\"></script>\r\n    <script src=\"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js\"></script>\r\n    <script src=\"https://unpkg.com/aos@next/dist/aos.js\"></script>\r\n    <script src=\"./assets/scripts/main.js\"></script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision c0e6cf9e9540d497394e7cdf2f0caee65e3ad6d3)
++++ b/index.html	(date 1687060346186)
+@@ -50,10 +50,10 @@
+                 </ul>
+                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                     <li class="nav-but">
+-                        <a class="btn btn-outline-dark" href="#">Register</a>
++                        <a class="btn btn-outline-dark" href="../public/assets/register/index.html">Register</a>
+                     </li>
+                     <li class="nav-but">
+-                        <a class="btn btn-outline-dark" href="#">Login</a>
++                        <a class="btn btn-outline-dark" href="../public/assets/login/index.html">Login</a>
+                     </li>
+                 </ul>
+             </div>
+@@ -70,7 +70,7 @@
+                     <h5 class="text-white mt-3 mb-4" data-aos="fade-right">APRENDE CURSOS CON AYUDA DE INTELIGENCIA
+                         ARTIFICIAL Y MUCHO MAS</h5>
+                     <div data-aos="fade-up" data-aos-delay="50">
+-                        <a href="#" class="btn btn-brand me-2">Inicia Ahora</a>
++                        <a href="../public/assets/register/index.html" class="btn btn-brand me-2">Inicia Ahora</a>
+                         <a href="#contact" class="btn btn-light ms-2">Contactanos</a>
+                     </div>
+                 </div>
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision c0e6cf9e9540d497394e7cdf2f0caee65e3ad6d3)
++++ /dev/null	(revision c0e6cf9e9540d497394e7cdf2f0caee65e3ad6d3)
+@@ -1,4 +0,0 @@
+-# StudentIA-Grupo5-IHC.github.io
+-# StudentIA-Grupo5-IHC.github.io
+-# StudentIA-Grupo5-IHC.github.io
+-# stunning-octo-engine
+Index: assets/styles/register.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/register.css b/assets/styles/register.css
+new file mode 100644
+--- /dev/null	(date 1687060157287)
++++ b/assets/styles/register.css	(date 1687060157287)
+@@ -0,0 +1,48 @@
++/* Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
++
++Imágenes en Unsplash: https://unsplash.com/@xps
++Logo 
++
++*/
++
++:root {
++    --dark: #16191C;
++    --dark-x: #1E2126; 
++    --light: #ffffff;
++}
++
++body {
++    font-family: 'Spartan', sans-serif;
++    font-weight: 300;
++    color: var(--light);
++}
++
++.text-light { color: var(--light) !important; }
++.bg-dark { background-color: var(--dark) !important; }
++.bg-dark-x { background-color: var(--dark-x); }
++
++.btn {
++    min-height: 3.125rem;
++    font-weight: 600;
++}
++
++.form-control {
++    min-height: 3.125rem;
++    line-height: initial;
++}
++.form-control:focus {
++    background-color: var(--dark-x);
++    outline: none;
++}
++
++.img-1 {
++    background-image: url('../images/img-1.jpg');
++    background-size: cover;
++    background-position: center;
++}
++
++.img-2 {
++    background-image: url('../images/img-2.jpg');
++    background-size: cover;
++    background-position: center;
++}
+\ No newline at end of file
+Index: assets/styles/stylelogin.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/styles/stylelogin.css b/assets/styles/stylelogin.css
+new file mode 100644
+--- /dev/null	(date 1687060102155)
++++ b/assets/styles/stylelogin.css	(date 1687060102155)
+@@ -0,0 +1,48 @@
++/* Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
++
++Imágenes en Unsplash: https://unsplash.com/@xps
++Logo : 
++
++*/
++
++:root {
++    --dark: #16191C;
++    --dark-x: #1E2126; 
++    --light: #ffffff;
++}
++
++body {
++    font-family: 'Spartan', sans-serif;
++    font-weight: 300;
++    color: var(--light);
++}
++
++.text-light { color: var(--light) !important; }
++.bg-dark { background-color: var(--dark) !important; }
++.bg-dark-x { background-color: var(--dark-x); }
++
++.btn {
++    min-height: 3.125rem;
++    font-weight: 600;
++}
++
++.form-control {
++    min-height: 3.125rem;
++    line-height: initial;
++}
++.form-control:focus {
++    background-color: var(--dark-x);
++    outline: none;
++}
++
++.img-1 {
++    background-image: url('../images/img-1.jpg');
++    background-size: cover;
++    background-position: center;
++}
++
++.img-2 {
++    background-image: url('../images/img-2.jpg');
++    background-size: cover;
++    background-position: center;
++}
+\ No newline at end of file
+Index: assets/images/Logo.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/images/Logo.svg b/assets/images/Logo.svg
+new file mode 100644
+--- /dev/null	(date 1597020438000)
++++ b/assets/images/Logo.svg	(date 1597020438000)
+@@ -0,0 +1,3 @@
++<svg width="100" height="32" viewBox="0 0 100 32" fill="none" xmlns="http://www.w3.org/2000/svg">
++<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.66552H12.16L13.493 1.7211L14.77 1.83228L15.9919 2.10969L17.1581 2.38763L18.2127 2.8318L19.2122 3.27598L20.1562 3.83133L21.0445 4.44227L21.8222 5.1088L22.5994 5.83038L23.2659 6.60808L23.8763 7.44084L24.3761 8.32919L24.8759 9.21807L25.2644 10.162L25.598 11.1059L42.8652 0L49.1392 4.21991L35.7023 12.8816L37.8675 14.3253L51.4156 5.7192L57.2449 9.60558L43.8642 18.434L46.1406 19.8221L59.7432 11.1605V1.66552H69.7379V20.5993H78.6219V29.4828H59.7432V20.3769L42.9202 31.2044L25.7631 19.5998L25.4296 20.5993L25.0966 21.5432L24.5968 22.4872L24.0971 23.4316L23.4861 24.2644L22.8196 25.0977L22.098 25.8748L21.2653 26.5408L20.4325 27.2074L19.433 27.7627L18.4335 28.2625L17.3228 28.7066L16.1565 29.0396L14.9351 29.2615L13.6582 29.4282L12.2701 29.4838H0V1.66552ZM9.55053 10.3828H12.16L13.3263 10.4939L14.2702 10.8269L15.103 11.3267L15.8246 11.9932L16.3249 12.7704L16.7134 13.6037L16.9353 14.5476L16.9908 15.4916L16.9353 16.4355L16.7134 17.38L16.3249 18.2127L15.7695 18.9904L15.103 19.6564L14.2702 20.1567L13.2707 20.4897L12.16 20.6009H9.55053V10.3828ZM81.1208 1.66552H91.171V20.5993H100V29.4828H81.1213V1.66552H81.1208Z" fill="white"/>
++</svg>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1af4de8d-b772-4f52-bacd-59e8f5f9d873\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2RFOgjxueloRAnBwMjteoY2QhV2\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"feature\",\r\n    \"last_opened_file_path\": \"C:/Users/USER/Desktop/Nueva carpeta/public\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1af4de8d-b772-4f52-bacd-59e8f5f9d873\" name=\"Changes\" comment=\"\" />\r\n      <created>1686842475334</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1686842475334</updated>\r\n      <workItem from=\"1686842476516\" duration=\"660000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c0e6cf9e9540d497394e7cdf2f0caee65e3ad6d3)
++++ b/.idea/workspace.xml	(date 1687315041410)
+@@ -4,10 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="1af4de8d-b772-4f52-bacd-59e8f5f9d873" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/assets/images/Logo.svg" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/login/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/register/index.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/assets/styles/stylelogin.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,35 +20,64 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="develop" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="develop" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="ProjectId" id="2RFOgjxueloRAnBwMjteoY2QhV2" />
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="2RFXw0CMPZcyRRjv3slD0eCDFIu" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "git-widget-placeholder": "feature",
+-    "last_opened_file_path": "C:/Users/USER/Desktop/Nueva carpeta/public",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;features&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Nueva carpeta/public&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="SvnConfiguration">
++    <configuration>C:\Users\USER\AppData\Roaming\Subversion</configuration>
++  </component>
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="1af4de8d-b772-4f52-bacd-59e8f5f9d873" name="Changes" comment="" />
+-      <created>1686842475334</created>
++      <changelist id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="" />
++      <created>1686847038755</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+-      <updated>1686842475334</updated>
+-      <workItem from="1686842476516" duration="660000" />
++      <updated>1686847038755</updated>
++      <workItem from="1686847039910" duration="3673000" />
++      <workItem from="1687313842112" duration="1188000" />
+     </task>
+     <servers />
+   </component>
+@@ -61,4 +95,9 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <ignored-roots>
++      <path value="$PROJECT_DIR$" />
++    </ignored-roots>
++  </component>
+ </project>
+\ No newline at end of file
+Index: assets/register/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/register/index.html b/assets/register/index.html
+new file mode 100644
+--- /dev/null	(date 1687060530444)
++++ b/assets/register/index.html	(date 1687060530444)
+@@ -0,0 +1,111 @@
++<!doctype html>
++<html lang="es">
++
++<head>
++  <!-- Required meta tags -->
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width, initial-scale=1">
++
++  <!-- Bootstrap CSS -->
++  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
++    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
++  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
++  <script src="https://kit.fontawesome.com/ffec4ec2ed.js" crossorigin="anonymous"></script>
++  <link rel="stylesheet" href="../styles/register.css" />
++  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
++
++  <title>StudentIA-Register</title>
++</head>
++
++<body class="bg-dark">
++  <section>
++    <div class="row g-0">
++      <div class="col-lg-7 d-none d-lg-block">
++        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
++          <ol class="carousel-indicators">
++            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
++            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
++          </ol>
++          <div class="carousel-inner">
++            <div class="carousel-item img-1 min-vh-100 active">
++              <div class="carousel-caption d-none d-md-block">
++                <h5 class="font-weight-bold">Innovando con IA</h5>
++                <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
++              </div>
++            </div>
++            <div class="carousel-item img-2 min-vh-100">
++              <div class="carousel-caption d-none d-md-block">
++                <h5 class="font-weight-bold">Descubre nuestros nuevos Cursos</h5>
++                <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
++              </div>
++            </div>
++          </div>
++          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
++            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
++            <span class="sr-only">Previous</span>
++          </a>
++          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
++            <span class="carousel-control-next-icon" aria-hidden="true"></span>
++            <span class="sr-only">Next</span>
++          </a>
++        </div>
++      </div>
++      <div class="col-lg-5 bg-dark d-flex flex-column align-items-end min-vh-100">
++        <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 mb-auto w-100">
++          <img src="../images/Logo0.png" class="img-fluid" />
++        </div>
++        <div class="align-self-center w-100 px-lg-5 py-lg-2 p-4">
++          <h1 class="font-weight-bold mb-3">Registrate en StudentIA</h1>
++          <form class="mb-5">
++            <div class="mb-3">
++              <label for="exampleInputEmail1" class="form-label font-weight-bold">Nombre</label>
++              <input type="text" class="form-control bg-dark-x border-0" id="exampleInputEmail1"
++                placeholder="Ingresa tu Nombre" aria-describedby="emailHelp">
++            </div>
++            <div class="mb-3">
++              <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
++              <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1"
++                placeholder="Ingresa tu email" aria-describedby="emailHelp">
++            </div>
++            <div class="mb-3">
++              <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
++              <input type="password" class="form-control bg-dark-x border-0 mb-2" placeholder="Ingresa tu contraseña"
++                id="exampleInputPassword1">
++              <a href="" id="emailHelp" class="form-text text-muted text-decoration-none"></a>
++            </div>
++            <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
++          </form>
++
++          <p class="font-weight-bold text-center text-muted">Tambien con</p>
++          <div class="d-flex justify-content-around">
++            <button type="button" class="btn btn-outline-light flex-grow-1 mr-2"><i class="fab fa-google lead mr-2"></i>
++              Google</button>
++            <button type="button" class="btn btn-outline-light flex-grow-1 ml-2"><i
++                class="fab fa-facebook-f lead mr-2"></i> Facebook</button>
++          </div>
++        </div>
++        <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 mt-auto w-100">
++          <p class="d-inline-block mb-0">¿Ya tienes una cuenta?</p> <a href="../login/index.html"
++            class="text-light font-weight-bold text-decoration-none">Inicia Sesión</a>
++        </div>
++      </div>
++    </div>
++  </section>
++  <!-- Optional JavaScript -->
++  <!-- Popper.js first, then Bootstrap JS -->
++  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
++    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
++    crossorigin="anonymous"></script>
++  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
++    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
++    crossorigin="anonymous"></script>
++</body>
++
++</html>
++
++<!-- Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
++
++Imágenes en Unsplash: https://unsplash.com/@xps
++Logo Dell: https://worldvectorlogo.com/logo/dell-1
++
++-->
+\ No newline at end of file
+Index: assets/login/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/assets/login/index.html b/assets/login/index.html
+new file mode 100644
+--- /dev/null	(date 1687060701585)
++++ b/assets/login/index.html	(date 1687060701585)
+@@ -0,0 +1,93 @@
++<!doctype html>
++<html lang="es">
++  <head>
++    <!-- Required meta tags -->
++    <meta charset="utf-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1">
++
++    <!-- Bootstrap CSS -->
++    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
++    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
++    <script src="https://kit.fontawesome.com/ffec4ec2ed.js" crossorigin="anonymous"></script>
++    <link rel="stylesheet" href="../styles/stylelogin.css" />
++    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
++
++    <title>StudentIA-Login</title>
++  </head>
++  <body class="bg-dark">
++      <section>
++        <div class="row g-0">
++            <div class="col-lg-7 d-none d-lg-block">
++                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
++                    <ol class="carousel-indicators">
++                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
++                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
++                    </ol>
++                    <div class="carousel-inner">
++                      <div class="carousel-item img-1 min-vh-100 active">
++                        <div class="carousel-caption d-none d-md-block">
++                          <h5 class="font-weight-bold">Innovando con IA</h5>
++                          <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
++                        </div>
++                      </div>
++                      <div class="carousel-item img-2 min-vh-100">
++                        <div class="carousel-caption d-none d-md-block">
++                          <h5 class="font-weight-bold">Descubre nuestros nuevos Cursos</h5>
++                          <a class="text-muted text-decoration-none">Visita nuestra tienda</a>
++                        </div>
++                      </div>
++                    </div>
++                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
++                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
++                      <span class="sr-only">Previous</span>
++                    </a>
++                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
++                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
++                      <span class="sr-only">Next</span>
++                    </a>
++                  </div>
++            </div>
++            <div class="col-lg-5 bg-dark d-flex flex-column align-items-end min-vh-100">
++                <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 mb-auto w-100">
++                    <img src="../images/Logo0.png" class="img-fluid" />
++                </div>
++                <div class="align-self-center w-100 px-lg-5 py-lg-4 p-4">
++                <h1 class="font-weight-bold mb-4">Bienvenido a StudendtIA</h1>
++                <form class="mb-5">
++                    <div class="mb-4">
++                      <label for="exampleInputEmail1" class="form-label font-weight-bold">Email</label>
++                      <input type="email" class="form-control bg-dark-x border-0" id="exampleInputEmail1" placeholder="Ingresa tu email" aria-describedby="emailHelp">
++                    </div>
++                    <div class="mb-4">
++                      <label for="exampleInputPassword1" class="form-label font-weight-bold">Contraseña</label>
++                      <input type="password" class="form-control bg-dark-x border-0 mb-2" placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
++                      <a href="" id="emailHelp" class="form-text text-muted text-decoration-none">¿Has olvidado tu contraseña?</a>
++                    </div>
++                    <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
++                  </form>
++
++                <p class="font-weight-bold text-center text-muted">Tambien inicia sesión con</p>
++                <div class="d-flex justify-content-around">
++                    <button type="button" class="btn btn-outline-light flex-grow-1 mr-2"><i class="fab fa-google lead mr-2"></i> Google</button>
++                    <button type="button" class="btn btn-outline-light flex-grow-1 ml-2"><i class="fab fa-facebook-f lead mr-2"></i> Facebook</button>
++                </div>
++                </div>
++                <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 mt-auto w-100">
++                    <p class="d-inline-block mb-0">¿Todavia no tienes una cuenta?</p> <a href="../register/index.html" class="text-light font-weight-bold text-decoration-none">Crea una ahora</a>
++                </div>
++            </div>
++        </div>
++      </section>
++    <!-- Optional JavaScript -->
++    <!-- Popper.js first, then Bootstrap JS -->
++    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
++    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
++  </body>
++</html>
++
++<!-- Ninguna de las imagenes son de mi propiedad, a continuación están los links de los autores
++
++Imágenes en Unsplash: https://unsplash.com/@xps
++Logo Dell: https://worldvectorlogo.com/logo/dell-1
++
++-->
+\ No newline at end of file
