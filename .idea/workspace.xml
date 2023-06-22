@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="Carrito">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="Update 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +24,12 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -79,7 +82,7 @@
       <workItem from="1687313842112" duration="2894000" />
       <workItem from="1687355439487" duration="1390000" />
       <workItem from="1687459215886" duration="246000" />
-      <workItem from="1687459514958" duration="366000" />
+      <workItem from="1687459514958" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="Carrito">
       <created>1687315781104</created>
@@ -109,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687459879533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update 2">
+      <created>1687459969028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687459969028</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update 2">
+      <created>1687460134314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460134314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +148,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carrito" />
+    <MESSAGE value="Update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2" />
   </component>
 </project>
