@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/carrito/indexcarrito.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/paquete1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/paquete2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/paquete3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/platillo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/login/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/register/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/scripts/scriptscarrito.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/stylelogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/stylescarrito.css" afterDir="false" />
+    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="Carrito">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,27 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "features",
-    "last_opened_file_path": "C:/Users/USER/Desktop/Nueva carpeta/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;features&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Nueva carpeta/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\USER\AppData\Roaming\Subversion</configuration>
@@ -89,8 +76,32 @@
       <option name="presentableId" value="Default" />
       <updated>1686847038755</updated>
       <workItem from="1686847039910" duration="3673000" />
-      <workItem from="1687313842112" duration="1895000" />
+      <workItem from="1687313842112" duration="2894000" />
+      <workItem from="1687355439487" duration="1390000" />
+      <workItem from="1687459215886" duration="246000" />
     </task>
+    <task id="LOCAL-00001" summary="Carrito">
+      <created>1687315781104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687315781104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Carrito">
+      <created>1687315837855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687315837855</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Carrito">
+      <created>1687355116796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687355116796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,5 +122,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Carrito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carrito" />
   </component>
 </project>
