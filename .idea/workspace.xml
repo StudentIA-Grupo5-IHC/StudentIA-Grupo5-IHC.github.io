@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="Carrito">
+    <list default="true" id="dd725a6f-16ec-4bd2-bb26-b3c7db73614d" name="Changes" comment="Update 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +26,31 @@
         </map>
       </branch-storage>
     </favorite-branches>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9809805d-7805-4109-81b4-168b09866afa" />
+        <option name="url" value="https://github.com/StudentIA-Grupo5-IHC/StudentIA-Grupo5-IHC.github.io.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +67,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;features&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Nueva carpeta/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,6 +97,7 @@
       <workItem from="1687313842112" duration="2894000" />
       <workItem from="1687355439487" duration="1390000" />
       <workItem from="1687459215886" duration="246000" />
+      <workItem from="1687459514958" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="Carrito">
       <created>1687315781104</created>
@@ -101,7 +120,49 @@
       <option name="project" value="LOCAL" />
       <updated>1687355116796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Carrito">
+      <created>1687459879533</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687459879533</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update 2">
+      <created>1687459969028</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687459969028</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update 2">
+      <created>1687460134314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460134314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update 2">
+      <created>1687460326608</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460326608</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update 2">
+      <created>1687460721599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460721599</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update 2">
+      <created>1687460771359</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460771359</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +184,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carrito" />
+    <MESSAGE value="Update 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update 2" />
   </component>
 </project>
