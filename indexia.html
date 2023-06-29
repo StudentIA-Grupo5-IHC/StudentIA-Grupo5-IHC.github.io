@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title> StudentIA </title>
+    <link rel="stylesheet" href="assets/styles/styleia.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boxiocns CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i img='bx bxl-search'></i>
+            <span class="logo_name">StudentIA</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="indexhome.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="link_name">Buscar cursos</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Cursos</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="indexia.html">
+                    <i class='bx bx-pie-chart-alt-2'></i>
+                    <span class="link_name">ChatBot IA</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">IA</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-line-chart'></i>
+                    <span class="link_name">Foro</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Foro</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-compass'></i>
+                    <span class="link_name">Comunidad</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Comunidad</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-history'></i>
+                    <span class="link_name">Historial</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Historial</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="indexprofile.html">
+                    <i class='bx bx-cog'></i>
+                    <span class="link_name">Setting</span>
+                </a>
+                <ul class="sub-menu blank">
+                    <li><a class="link_name" href="#">Setting</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="profile-details">
+                    <div class="profile-content">
+                        <img src="assets/images/profile.jpg" alt="profileImg">
+                    </div>
+                    <div class="name-job">
+                        <div class="profile_name">Micaela Forsman</div>
+                        <div class="job">Web Desginer</div>
+                    </div>
+                    <i class='bx bx-log-out'></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="home-content">
+            <i class='bx bx-menu'></i>
+
+            <span class="text">StudentIA - IA</span>
+
+        </div>
+
+        <style>
+    
+            /* Chat Bott styling  */
+            
+            .main {
+                        height: 470px;
+                        padding: 20px;
+                        background-image: url('https://i.pinimg.com/originals/2b/91/91/2b9191c0750915300106a457fddec474.gif');
+                        border-radius: 10px 10px 0px 0px;
+                        overflow-y: auto;
+                        overflow-x: hidden;
+                        background-size: 120%;
+                        background-position: center;
+                        box-shadow: inset 0px 0px 10px -5px rgb(160, 160, 160);
+                        background-repeat: no-repeat;
+                        opacity: .7
+                    }
+                    #inp_text {
+                        border-radius: 20px;
+                        border-radius: 0px 0px 0px 20px;
+                        box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+                    }
+                    .main::-webkit-scrollbar {
+                        width: 8px;
+                        border-radius: 10px;
+                        background-color: rgb(233, 233, 233);
+                        box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
+                    }
+                    .main::-webkit-scrollbar-thumb {
+                        background: dodgerblue;
+                        border-radius: 10px;
+                    }
+                    .main::-webkit-scrollbar-thumb:hover {
+                        background: rgb(14, 129, 243);
+                    }
+                    .response {
+                        width: fit-content;
+                        background-color: #fff;
+                        max-width: 75%;
+                        padding: 10px;
+                        margin-right: auto;
+                        margin-top: 20px;
+                        border-radius: 10px;
+                        box-shadow: 2px 2px 10px -6px #000;
+                        z-index: 1
+                    }
+                    .request {
+                        width: fit-content;
+                        background-color: #bcf388;
+                        max-width: 75%;
+                        padding: 10px;
+                        margin-left: auto;
+                        margin-top: 20px;
+                        box-shadow: 2px 2px 10px -6px #000;
+                        z-index: 1
+                    }
+                    #outer {
+                        box-shadow: 5px 5px 40px -15px rgb(151, 151, 151);
+                    }
+                    #send{
+                        border-radius: 0px 0px 20px;
+                    }
+                    .img img{
+                    position: absolute;
+                    width: 300px;
+                    z-index: -1
+                    }
+            </style>
+            
+            <body>
+                <div class="container mt-5">
+                    <div class="row mt-1">
+            
+                        <div class="col-md-6 col-sm-10 text-center">
+                            <h1 class="display-4 font-weight-normal ">StudentIA</h1>
+                            <img src="https://i.pinimg.com/564x/57/0d/d2/570dd216bcae1a573e86109b5950540c.jpg" class="w-75 mt-5" alt="">
+                        </div>
+                        <div class="col-md-4 col-sm-8 offset-1 bg-white p-3" id="outer">
+                            <div class="main"></div>
+                            <div class="input-group">
+                                <input type="text" class="form-control" style="height: 50px;" id="inp_text" placeholder="Ask me any thing!">
+                                <div class="input-group-append">
+                                    <button class=" btn btn-primary btn-lg" id="send"><i class="far fa-paper-plane"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+               
+               <!-- Chat Bott  JavaScript  -->
+            
+            
+            <script>
+                    document.getElementById("inp_text").focus();
+                    document.getElementsByTagName("body")[0].addEventListener("keypress", function (e) {
+                        if (e.key == "Enter") {
+                            send();
+                        }
+                    });
+                    document.getElementById("send").addEventListener("click", send);
+                    function send() {
+            
+                        var text = document.getElementById("inp_text").value;
+                        if (text == "") {
+                        }
+                        else {
+            
+                            var request = document.createElement("div");
+                            request.className = "request";
+                            request.innerText = text;
+            
+                            document.getElementsByClassName("main")[0].appendChild(request);
+                            document.getElementById("inp_text").value = "";
+                            
+                            fetch(`https://api.monkedev.com/fun/chat?msg=${text}`)
+                            .then(response => response.json())
+                            .then(function(data){
+                         
+                                var response = document.createElement("div");
+                                response.className = "response";
+                                response.innerText = data.response
+                                
+                                setTimeout(function () {
+                                    document.getElementsByClassName("main")[0].appendChild(response);
+                                    var a = document.getElementsByClassName("main")[0].scrollHeight;
+                                    document.getElementsByClassName("main")[0].scrollTop = a+100 ;
+                                }, 1000)
+                            });
+                            }
+                        var a = document.getElementsByClassName("main")[0].scrollHeight;
+                        document.getElementsByClassName("main")[0].scrollTop = a ;
+                    };
+                </script>
+            
+            
+            </body>  
+
+
+
+    </section>
+
+    <script src="assets/scripts/scriptia.js"></script>
+
+</body>
+
+</html>
