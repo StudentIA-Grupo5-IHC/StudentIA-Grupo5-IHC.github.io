@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> StudentIA </title>
+  <link rel="stylesheet" href="assets/styles/stylehome.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Boxiocns CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+      <i img='bx bxl-search'></i>
+      <span class="logo_name">StudentIA</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="indexhome.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="link_name">Buscar cursos</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Cursos</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="indexia.html">
+          <i class='bx bx-pie-chart-alt-2'></i>
+          <span class="link_name">ChatBot IA</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">IA</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-line-chart'></i>
+          <span class="link_name">Foro</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Foro</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-compass'></i>
+          <span class="link_name">Comunidad</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Comunidad</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-history'></i>
+          <span class="link_name">Historial</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Historial</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="indexprofile.html">
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Setting</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <li>
+        <li>
+          <a href="#">
+            <i class='bx bx-grid-alt'></i>
+            <span class="link_name">Loguout</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="link_name" href="#">Logout</a></li>
+          </ul>
+        </li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="assets/images/profile.jpg" alt="profileImg">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Micaela Forsman</div>
+            <div class="job">Web Desginer</div>
+          </div>
+          <i class='bx bx-log-out'></i>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      <i class='bx bx-menu'></i>
+
+      <span class="text">StudentIA - Cursos</span>
+
+    </div>
+    <style>
+      .card {
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+        box-shadow: 0px 0px 6px -4px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+      }
+
+      .card:hover {
+        box-shadow: 0px 0px 51px -36px rgba(0, 0, 0, 1);
+      }
+    </style>
+
+    <body>
+
+      <h2 class="text-center mt-2">Buscar Cursos</h2>
+
+      <input type="text" class="form-control mt-3 mx-auto" id="myinput" placeholder="Live searching...."
+        style="width:30%;">
+
+
+      <div class="container mb-5">
+        <h3 class="text-danger mt-5 text-center" id="para" style="display: none;">Not Found </h3>
+
+        <div class="row mt-3" id="card">
+
+        </div>
+
+      </div>
+
+
+
+      <script>
+        // filter array 
+        let filterarray = [];
+
+        // gallery card array
+
+        let galleryarray = [
+          {
+            id: 1,
+            name: "fisica basica",
+            src: "https://web.ua.es/es/cursos-cero/imagenes/fisica.png",
+            desc: "Curso recomendado para usuarios que recien estan aprendiendo sobre fisica ."
+          },
+          {
+            id: 2,
+            name: "c++ desde 0",
+            src: "https://cipsa.net/wp-content/uploads/01-img-logo-c-cipsa-barcelona-bilbao.png.webp",
+            desc: "Curso para aprender de 0 el lenguaje de programacion c++ ."
+          },
+          {
+            id: 3,
+            name: "power bi",
+            src: "https://i.ytimg.com/vi/mmBCSpzy29E/maxresdefault.jpg",
+            desc: "Curso para aprende desde lo mas basico a lo mas avanzado en PowerBI."
+          },
+          {
+            id: 4,
+            name: "normas apa",
+            src: "https://alianzaparacrecer.com/wp-content/uploads/2022/06/IMAGEN-PRODUCTO-1-NORMAS-APA-7.a-EDICION-2020-1.png",
+            desc: "Curso para aprendes las Normas APA , aprende a citar , referenciar y mas..."
+          },
+          {
+            id: 5,
+            name: "curso de geometria",
+            src: "https://liceoisabelsarmiento.edu.co/aulavirtual/pluginfile.php/803/course/overviewfiles/geometria.png",
+            desc: "Curso para aprender Geometria basica hasta avanzada."
+          },
+          {
+            id: 6,
+            name: "importa desde china",
+            src: "https://ercaconsulting.com/wp-content/uploads/2021/11/Curso-De-Aprende-A-Importar-De-China-Y-El-Mundo-2.jpg",
+            desc: "Curso para aprender a importar desde china, desde lo mas basico."
+          },
+          {
+            id: 7,
+            name: "importa desde eeuu",
+            src: "https://www.amcargo.es/wp-content/uploads/2020/05/importacion-temporal-a-estados-unidos-1024x576.jpg",
+            desc: "Curso para aprender a importar desde EE.UU, desde lo mas basico."
+          },
+          {
+            id: 8,
+            name: "curso de ingles",
+            src: "data:image/jpeg;base64,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",
+            desc: "Curso de ingles desde basico , hasta avanzado."
+          },
+          {
+            id: 9,
+            name: "curso de alta cocina",
+            src: "https://i.pinimg.com/564x/2d/33/ed/2d33ed996c753cb17145d299bfa66145.jpg",
+            desc: "Aprende a preparar fantasticos platillos y se el mejor chef."
+          },
+          {
+            id: 10,
+            name: "curso de lenguaje 1",
+            src: "data:image/png;base64,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",
+            desc: "Aprende lenguaje desde lo mas basico a lo mas avanzado."
+          },
+          {
+            id: 11,
+            name: "curso de estadistica",
+            src: "https://www.mapsiformacion.com/web/image/cache//cursos/imagen%20estadistica-590x590.jpg",
+            desc: "Curso para aprender estadistica a un nivel avanzado ."
+          },
+          {
+            id: 12,
+            name: "curso de historia",
+            src: "https://cdn.goconqr.com/uploads/media/image/10324463/desktop_cb3541ed-ab38-450f-9403-e800ac7d09f5.jpg",
+            desc: "Curso de historia universal , conoce la historia del mundo."
+          }
+        ];
+
+
+
+        showgallery(galleryarray);
+
+
+        // create function to show card
+
+
+        function showgallery(curarra) {
+          document.getElementById("card").innerText = "";
+          for (var i = 0; i < curarra.length; i++) {
+            document.getElementById("card").innerHTML += `
+          <div class="col-md-4 mt-3" >
+             <div class="card p-3 ps-5 pe-5">
+                 <h4 class="text-capitalize text-center">${curarra[i].name}</h4>
+  
+            <img src="${curarra[i].src}" width="100%" height="320px"/>
+            <p class="mt-2">${curarra[i].desc}</p>
+            <button class="btn btn-primary w-100 mx-auto">More</button>
+         
+            </div>
+            </div>
+         `
+          }
+
+        }
+
+        // For Live Searching Product
+
+        document.getElementById("myinput").addEventListener("keyup", function () {
+          let text = document.getElementById("myinput").value;
+
+          filterarray = galleryarray.filter(function (a) {
+            if (a.name.includes(text)) {
+              return a.name;
+            }
+
+          });
+          if (this.value == "") {
+            showgallery(galleryarray);
+          }
+          else {
+            if (filterarray == "") {
+              document.getElementById("para").style.display = 'block'
+              document.getElementById("card").innerHTML = "";
+            }
+            else {
+
+              showgallery(filterarray);
+              document.getElementById("para").style.display = 'none'
+            }
+          }
+
+        });
+
+
+
+      </script>
+
+    </body>
+  </section>
+
+  <script src="assets/scripts/scripthome.js"></script>
+
+</body>
+
+</html>
